@@ -59,7 +59,7 @@ class Quizbee extends Component{
                         />
                     )
                 )}
-                {this.state.responses === 5?(<Result score={this.state.sccore} playagain={this.playagain}/> )
+                {this.state.responses === 5?(<Result score={this.state.score} playagain={this.playagain}/> )
                 :null}
             </div>
         );
